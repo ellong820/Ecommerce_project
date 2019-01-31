@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h1 className='tc f1'>ELO</h1>
+          <Header/>
+  
+        <div className="banner">
+          <img className="w-100" src="https://static.zara.net/photos///mkt/spots/ss19-campaign-woman/home-teaser//desktop-whitebackgrouindd.st.jpg?1548358944991"></img>
+        </div>
+
+        <div className="content">
+
+
+        </div>
       </div>
     );
   }
