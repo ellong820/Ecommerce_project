@@ -10,7 +10,7 @@ class App extends Component {
           <Header/>
   
         <div className="banner">
-          <img src="https://static.zara.net/photos///mkt/spots/ss19-campaign-woman/home-teaser//desktop-whitebackgrouindd.st.jpg?1548358944991"></img>
+          <img className="w-100" src="https://static.zara.net/photos///mkt/spots/ss19-campaign-woman/home-teaser//desktop-whitebackgrouindd.st.jpg?1548358944991"></img>
         </div>
 
         <div className="content">
