@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>ELO <small>Simple and minimalistic</small></h1>
+        <h1 className='tc f1'>ELO</h1>
           <Header/>
   
         <div className="banner">
